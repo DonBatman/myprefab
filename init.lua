@@ -1,7 +1,7 @@
 --This is a mod by DanDuncombe that adds pre-fabricated concrete stuff to Minetest
 --It is CC-By-Sa for everything.
 print("Prefab mod loading....")
---dofile(minetest.get_modpath("prefab").."/crafting.lua")
+dofile(minetest.get_modpath("prefab").."/crafting.lua")
 --print("Prefab Crafting loaded!")
 dofile(minetest.get_modpath("prefab").."/other.lua")
 print("Prefab Other loaded!")
